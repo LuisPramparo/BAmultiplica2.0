@@ -38,7 +38,6 @@ main h1 {
 }
 
 .contenedor-imagenes {
-  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -51,4 +50,12 @@ img {
 
 footer {
   text-align: center;
+}
+/* Probando hacer responsive - sigo sin entender bien!! */
+@media (min-width: 712px){
+  body {
+    background-color: fdcfeb;
+    text-align: center;
+  }
+  
 }
